@@ -1,5 +1,5 @@
 {% set name = "jlgametheory" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/jlgametheory-{{ version }}.tar.gz
-  sha256: 07a8a27c0de4ff2c0acb578c37456a87c4be49c977c8e48cc24f21e9fc3382be
+  sha256: 97ba684303dad9e624b3437c9b273810e0518a85feb416ce69170c7fa0c96144
 
 build:
   noarch: python
