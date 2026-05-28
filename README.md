@@ -146,6 +146,3 @@ Feedstock Maintainers
 
 * [@oyamad](https://github.com/oyamad/)
 
-
-<!-- dummy commit to enable rerendering -->
-
