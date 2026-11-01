@@ -1,5 +1,5 @@
 {% set name = "jlgametheory" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/jlgametheory-{{ version }}.tar.gz
-  sha256: 4ed0e09a175868d7dc0018137ca2005e07d5e590fb424d109e8776aa6ad9f78a
+  sha256: 6dce05ee70afca06ab57f3c82487d1eaa0d549bf6bc49b677004ef11946a79ff
 
 build:
   noarch: python
